@@ -37,13 +37,6 @@ local user_opts = {
     seekrange = true,		-- show seekrange overlay
     seekrangealpha = 64,      	-- transparency of seekranges
     seekbarkeyframes = true,    -- use keyframes when dragging the seekbar
-    showjump = true,            -- show "jump forward/backward 5 seconds" buttons 
-                                -- shift+left-click to step 1 frame and 
-                                -- right-click to jump 1 minute
-    jumpamount = 5,             -- change the jump amount (in seconds by default)
-    jumpiconnumber = true,      -- show different icon when jumpamount is 5, 10, or 30
-    jumpmode = 'exact',         -- seek mode for jump buttons. e.g.
-                                -- 'exact', 'relative+keyframes', etc.
     title = '${media-title}',   -- string compatible with property-expansion
                                 -- to be shown as OSC title
     showtitle = true,		-- show title in OSC
